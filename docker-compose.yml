@@ -11,6 +11,9 @@ services:
     networks:
       - frontend
 
+volumes:
+  polymath-data:
+
 networks:
   frontend:
     external: true
